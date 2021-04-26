@@ -1,7 +1,4 @@
-body,h1{
+body, h1, h2, h3{
     margin: 0px;
 }
 
-h1{
-    text-align: center;
-}
