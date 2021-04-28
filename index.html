@@ -8,30 +8,32 @@
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/components/header.css">
     <link rel="stylesheet" href="css/components/button.css">
     <link rel="stylesheet" href="css/components/title.css">
     <link rel="stylesheet" href="css/components/subtitle.css">
     <link rel="stylesheet" href="css/components/box.css">
+    <link rel="stylesheet" href="css/components/action.css">
     
 </head>
 <body> <!-- header>img+nav>a*5 isso resulta abaixo com emmet -->
-    <header>
+    <header class="header">
         <img class="logo" src="assets/img/logo.png" alt="Logo Fabio">
         
-        <nav> <!-- a[lang=en ou pt-br]define lingaguem para navegador -->
-            <a href="" lang="en">Skills</a>
-            <a href="">Projetos</a> <!-- a{nome} cria referencia algum link -->
-            <a href="">Sobre</a>
-            <a href="">Contato</a>
+        <nav>
+            <a class="action" href="" lang="en">Skills</a>
+            <a class="action" href="">Projetos</a> 
+            <a class="action" href="">Sobre</a>
+            <a class="action" href="">Contato</a>
             <a class="button" href="" lang="en">Download CV</a>
     
         
     </script>
         </nav>
     </header>
-    <div id="box">
-        <h1 id="nome1">Fabio Alves</h1> 
-        <h2>FrontEnd Developer</h2>
+    <div class="box">
+        <h1 class="title">Fabio Alves</h1> 
+        <h2 class="subtitle">FrontEnd Developer</h2>
     </div>
     <a class="button" href="" lang="en">Download CV</a>
     <a class="button" href="">Contato</a>
